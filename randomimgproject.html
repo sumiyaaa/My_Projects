@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random image generate</title>
+</head>
+<body>
+    <link rel="stylesheet" href="rip.css">
+    <div class=" continer">
+        <div class="content">
+        <h3>random image in every 5 second</h3>
+        <p>click on the button for new image</p>
+        <button onclick="refresh()"> random image</button>
+        </div>
+
+    </div>
+<script>
+
+function refresh(){
+    window.location.reload();
+} 
+setInterval(refresh , 5000); //the function will run every 5 second automate
+
+</script>
+</body>
+</html>
