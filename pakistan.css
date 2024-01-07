@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto , sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/main_image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right:8% ;
+    box-sizing: border-box;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2opx;
+}
+.row{
+    display: flex;
+    height:88%;
+    align-items: center;
+    
+}
+
+.col{
+    flex-basis: 50%;
+}
+h1{
+    padding-left: 10%;
+    color: #fff;
+    font-size: 100px;
+
+}
+p{
+    padding-left: 10%;
+    color:#fff;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+button{
+    
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    
+
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+  
+    background-position: center;
+    background-size: cover;
+    transition: transfrom 0.5s;
+}
+.card1{
+    background-image: url(images/punjab.jpg);
+}
+.card2{
+    background-image: url(images/balochistan.jpg);
+}
+.card3{
+    background-image: url(images/sindhh.jpg);
+}
+.card4{
+    background-image: url(images/Khyber\ Pakhtunkhwa.jpg);
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    color: #1b1414;
+}
+span{
+    color: green;
+}
